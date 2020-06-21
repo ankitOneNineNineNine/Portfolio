@@ -1,24 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import logo from "./logo.svg";
+import "./App.css";
+import "tachyons";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import Navbar from "./components/navbar/navbar";
+import About from "./components/About/About";
+import Project from "./components/Projects/Projects";
+import Academics from "./components/Academics/Academics";
+import Contact from "./components/Contact/Contact";
 
 function App() {
+  const [route, setRoute] = useState("/about");
+  useEffect(() => {
+    AOS.init({
+      offset: 200,
+      duration: 800,
+      easing: "ease-in-sine",
+      delay: 200,
+    });
+    AOS.refresh();
+    setRoute(window.location.pathname);
+  });
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+      <header>
+        <Navbar />
       </header>
+      {route === "/projects" ? (
+        <Project />
+      ) : route === "/academics" ? (
+        <Academics />
+      ) : route === "/contact" ? (
+        <Contact />
+      ) : (
+        <About />
+      )}
     </div>
   );
 }
