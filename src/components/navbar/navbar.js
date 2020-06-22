@@ -1,5 +1,6 @@
 import React from "react";
-
+import './navbar.css'
+import signature from "./signature.png";
 export default function Navbar(props) {
   var currentPath = window.location.pathname;
   var aboutStyle, projectStyle, academicStyle, contactStyle;
@@ -13,15 +14,14 @@ export default function Navbar(props) {
     aboutStyle = { backgroundColor: "#D3D3D3" };
   }
   return (
-    <nav className="pa3 pa4-ns">
+    <nav className="pa3 pa4-ns ">
       <a
         className="link dim black b f1 f-headline-ns tc db mb3 mb4-ns"
         href="/"
-        title="About"
       >
-        my signature
+        <img src={signature} alt="my signature" />
       </a>
-      <div className="tc pb3">
+      <div className="tc pb3 navbar" >
         <a
           className="link dim f6 pa3 br3 f5-ns pointer dib mr3"
           style={aboutStyle}

@@ -1,0 +1,8 @@
+.myImage{
+    display: none
+}
+@media only screen and (max-width: 978px){
+    .myImage{
+        display: block
+    }
+}

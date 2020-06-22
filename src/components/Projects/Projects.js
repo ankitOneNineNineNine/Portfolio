@@ -33,7 +33,7 @@ export default function Project() {
               <img
                 src="https://miro.medium.com/freeze/max/1000/1*t3DEmVOWOuWjIo_TjcpxNQ.gif"
                 className="db"
-                alt="Photo of a dimly lit room with a computer interface terminal."
+                alt="face detection."
               />
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function Project() {
               <img
                 src="https://i.ytimg.com/vi/W9jLFLtOpoA/maxresdefault.jpg"
                 className="db"
-                alt="Photo of a dimly lit room with a computer interface terminal."
+                alt="of a dimly lit room with a computer interface terminal."
               />
             </div>
           </div>
@@ -96,7 +96,7 @@ export default function Project() {
               <img
                 src="https://lh3.googleusercontent.com/proxy/IGUIXOC8WGaFj0BTorStaK4IvFpB8oqZcmUNbJBf-nuWE0Kc02JzMY6I1p5bLQ1D_XjU2ikTeYqRla7Xd81of-FQXQAfK0tKiYoqyBZu5sISchD4htLwbcIwxDspdLB0q5clStBj4lE_PL1yr8-ocn_P4zk"
                 className="db"
-                alt="Photo of a dimly lit room with a computer interface terminal."
+                alt="Music Streamer"
               />
             </div>
           </div>
@@ -129,7 +129,7 @@ export default function Project() {
               <img
                 src="https://lh3.googleusercontent.com/proxy/IGUIXOC8WGaFj0BTorStaK4IvFpB8oqZcmUNbJBf-nuWE0Kc02JzMY6I1p5bLQ1D_XjU2ikTeYqRla7Xd81of-FQXQAfK0tKiYoqyBZu5sISchD4htLwbcIwxDspdLB0q5clStBj4lE_PL1yr8-ocn_P4zk"
                 className="db"
-                alt="Photo of a dimly lit room with a computer interface terminal."
+                alt="eLearn"
               />
             </div>
           </div>
@@ -162,7 +162,7 @@ export default function Project() {
               <img
                 src="https://cdn.searchenginejournal.com/wp-content/uploads/2017/11/e-commerce-link-building-760x400.png"
                 className="db"
-                alt="Photo of a dimly lit room with a computer interface terminal."
+                alt="eCommerce"
               />
             </div>
           </div>

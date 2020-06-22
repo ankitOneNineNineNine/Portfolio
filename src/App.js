@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import "tachyons";
 import AOS from "aos";
@@ -11,17 +10,17 @@ import Academics from "./components/Academics/Academics";
 import Contact from "./components/Contact/Contact";
 
 function App() {
-  const [route, setRoute] = useState("/about");
+  const [route, setRoute] = useState("/");
   useEffect(() => {
     AOS.init({
       offset: 200,
       duration: 800,
       easing: "ease-in-sine",
-      delay: 200,
+      delay: 100,
     });
     AOS.refresh();
     setRoute(window.location.pathname);
-  });
+  }, []);
 
   return (
     <div className="App">

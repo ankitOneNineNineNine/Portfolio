@@ -1,0 +1,7 @@
+@media  only screen and (max-width:423px){
+    .navbar{
+      display: flex;
+      flex-flow: wrap;
+    justify-content: flex-start;
+    }
+}

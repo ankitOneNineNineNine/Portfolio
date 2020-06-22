@@ -2,10 +2,17 @@ import React from "react";
 
 export default function Contact() {
   return (
-    <footer className="pa4 pa5-l black-70 bt b--black-10 tc">
-        <h1>Ankit Pradhan</h1>
+    <footer
+      className="pa4 pa5-l black-70  b--black-10 tc"
+      style={{ margin: "auto" }}
+    >
+      <h1 data-aos="flip-right">Ankit Pradhan</h1>
       <div className="mb4-l cf">
-        <article className="tc w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns">
+        <article
+          className="tc w-50 dib-ns w-auto-ns mr4-m mr5-l mb4 pl2 pl0-ns"
+          style={{ margin: "auto" }}
+          data-aos="slide-left"
+        >
           <h4 className="f5 f4-l fw6">Bhaktapur</h4>
           <span className="f7 f6-l db black-70">Bhaktapur</span>
           <span className="f7 f6-l di black-70">Nepal</span>
@@ -23,6 +30,7 @@ export default function Contact() {
           <a
             className="black-70 f f3-ns fw6 tl link dim dib pv3 mt2 mb4 mb0-l"
             href="mailto:hello@impossible.com"
+            data-aos="zoom-in"
           >
             pradhanankit12@gmail.com
           </a>
@@ -40,17 +48,22 @@ export default function Contact() {
               data-icon="facebook"
               viewBox="0 0 32 32"
               fill="currentColor"
+              data-aos="slide-right"
             >
               <title>facebook icon</title>
               <path d="M8 12 L13 12 L13 8 C13 2 17 1 24 2 L24 7 C20 7 19 7 19 10 L19 12 L24 12 L23 18 L19 18 L19 30 L13 30 L13 18 L8 18 z"></path>
             </svg>
           </a>
-          <a href="https://twitter.com/Ankitpradhan15" className="link dim dib mr3 black-70">
+          <a
+            href="https://twitter.com/Ankitpradhan15"
+            className="link dim dib mr3 black-70"
+          >
             <svg
               className="db w2 h2"
               data-icon="twitter"
               viewBox="0 0 32 32"
               fill="currentColor"
+              data-aos="slide-down"
             >
               <title>twitter icon</title>
               <path d="M2 4 C6 8 10 12 15 11 A6 6 0 0 1 22 4 A6 6 0 0 1 26 6 A8 8 0 0 0 31 4 A8 8 0 0 1 28 8 A8 8 0 0 0 32 7 A8 8 0 0 1 28 11 A18 18 0 0 1 10 30 A18 18 0 0 1 0 27 A12 12 0 0 0 8 24 A8 8 0 0 1 3 20 A8 8 0 0 0 6 19.5 A8 8 0 0 1 0 12 A8 8 0 0 0 3 13 A8 8 0 0 1 2 4"></path>
@@ -67,6 +80,7 @@ export default function Contact() {
               y="0px"
               viewBox="0 0 290 248.6"
               fill="currentColor"
+              data-aos="zoom-in"
             >
               <g>
                 <path
@@ -93,7 +107,13 @@ export default function Contact() {
             href="https://www.linkedin.com/company/"
             className="link dim dib black-70"
           >
-            <svg className="db w2 h2" x="0px" y="0px" viewBox="0 0 48 48">
+            <svg
+              className="db w2 h2"
+              x="0px"
+              y="0px"
+              viewBox="0 0 48 48"
+              data-aos="slide-up"
+            >
               <linearGradient
                 gradientUnits="userSpaceOnUse"
                 x1="23.9995"
