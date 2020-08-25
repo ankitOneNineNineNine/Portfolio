@@ -7,14 +7,14 @@ export default function About() {
         <div className="myImage" >
           <img
           alt = 'me' 
-          src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/p960x960/85054893_884278435352539_5241483646002528256_o.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=_mkhEMhO7pgAX-IkFiv&_nc_ht=scontent.fktm8-1.fna&_nc_tp=6&oh=a6ec5cf307a32fb0f412e73d42c3763f&oe=5F13CC76" className = 'br3' data-aos = 'slide-up' />
+          src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/85054893_884278435352539_5241483646002528256_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=imlYCeqm29cAX9fXY5P&_nc_ht=scontent.fktm8-1.fna&oh=6762035e0c5e2a89d9244d752c20b989&oe=5F68EFA6" className = 'br3' data-aos = 'slide-up' />
         </div>
         <div
           className="cf br3"
           data-aos="zoom-in"
           style={{
             background:
-              "url(https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/p960x960/85054893_884278435352539_5241483646002528256_o.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=_mkhEMhO7pgAX-IkFiv&_nc_ht=scontent.fktm8-1.fna&_nc_tp=6&oh=a6ec5cf307a32fb0f412e73d42c3763f&oe=5F13CC76) no-repeat center center fixed",
+              "url(https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/85054893_884278435352539_5241483646002528256_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=imlYCeqm29cAX9fXY5P&_nc_ht=scontent.fktm8-1.fna&oh=6762035e0c5e2a89d9244d752c20b989&oe=5F68EFA6 no-repeat center center fixed",
             backgroundSize: "cover",
             padding: "0px",
             margin: "2px",
