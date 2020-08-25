@@ -21,17 +21,17 @@ function App() {
     AOS.refresh();
     setRoute(window.location.pathname);
   }, []);
-
+  console.log(route)
   return (
     <div className="App">
       <header>
         <Navbar />
       </header>
-      {route === "/Portfolio/projects" ? (
+      {route === "/Porfolio/projects" ? (
         <Project />
-      ) : route === "/Portfolio/academics" ? (
+      ) : route === "/Porfolio/academics" ? (
         <Academics />
-      ) : route === "/Portfolio/contact" ? (
+      ) : route === "/Porfolio/contact" ? (
         <Contact />
       ) : (
         <About />

@@ -1,5 +1,6 @@
 import React from "react";
 import "./about.css";
+import me from './me.jpg'
 export default function About() {
   return (
     <>
@@ -7,14 +8,18 @@ export default function About() {
         <div className="myImage" >
           <img
           alt = 'me' 
-          src="https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/85054893_884278435352539_5241483646002528256_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=imlYCeqm29cAX9fXY5P&_nc_ht=scontent.fktm8-1.fna&oh=6762035e0c5e2a89d9244d752c20b989&oe=5F68EFA6" className = 'br3' data-aos = 'slide-up' />
+          src={me} className = 'br3' data-aos = 'slide-up' />
         </div>
         <div
           className="cf br3"
           data-aos="zoom-in"
           style={{
             background:
-              "url(https://scontent.fktm8-1.fna.fbcdn.net/v/t1.0-9/85054893_884278435352539_5241483646002528256_o.jpg?_nc_cat=111&_nc_sid=09cbfe&_nc_ohc=imlYCeqm29cAX9fXY5P&_nc_ht=scontent.fktm8-1.fna&oh=6762035e0c5e2a89d9244d752c20b989&oe=5F68EFA6 no-repeat center center fixed",
+           
+           `url(${me})`,
+           backgroundRepeat: 'no-repeat',
+           backgroundPosition: 'center center',
+           backgroundAttachment: 'fixed',
             backgroundSize: "cover",
             padding: "0px",
             margin: "2px",

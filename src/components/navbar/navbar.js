@@ -4,11 +4,11 @@ import signature from "./signature.png";
 export default function Navbar(props) {
   var currentPath = window.location.pathname;
   var aboutStyle, projectStyle, academicStyle, contactStyle;
-  if (currentPath === "/projects") {
+  if (currentPath === "/Porfolio/projects") {
     projectStyle = { backgroundColor: "#D3D3D3" };
-  } else if (currentPath === "/academics") {
+  } else if (currentPath === "/Porfolio/academics") {
     academicStyle = { backgroundColor: "#D3D3D3" };
-  } else if (currentPath === "/contact") {
+  } else if (currentPath === "/Porfolio/contact") {
     contactStyle = { backgroundColor: "#D3D3D3" };
   } else {
     aboutStyle = { backgroundColor: "#D3D3D3" };
@@ -17,7 +17,7 @@ export default function Navbar(props) {
     <nav className="pa3 pa4-ns ">
       <a
         className="link dim black b f1 f-headline-ns tc db mb3 mb4-ns"
-        href="/"
+        href="/Porfolio"
       >
         <img src={signature} alt="my signature" />
       </a>
@@ -25,7 +25,7 @@ export default function Navbar(props) {
         <a
           className="link dim f6 pa3 br3 f5-ns pointer dib mr3"
           style={aboutStyle}
-          href="/"
+          href="/Porfolio"
           title="About"
         >
           About
@@ -33,7 +33,7 @@ export default function Navbar(props) {
         <a
           className="link dim f6 br3  pa3   f5-ns pointer dib mr3"
           style={projectStyle}
-          href="/projects"
+          href="/Porfolio/projects"
           title="Projects"
         >
           Projects
@@ -41,7 +41,7 @@ export default function Navbar(props) {
         <a
           className="link dim f6 br3  pa3   f5-ns pointer dib mr3"
           style={academicStyle}
-          href="/academics"
+          href="/Porfolio/academics"
           title="Academics"
         >
           Academic
@@ -49,7 +49,7 @@ export default function Navbar(props) {
         <a
           className="link dim f6 br3  pa3   f5-ns pointer dib"
           style={contactStyle}
-          href="/contact"
+          href="/Porfolio/contact"
           title="Contact"
         >
           Contact
