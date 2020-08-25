@@ -27,11 +27,11 @@ function App() {
       <header>
         <Navbar />
       </header>
-      {route === "/Porfolio/projects" ? (
+      {route === "/Portfolio/projects" ? (
         <Project />
-      ) : route === "/Porfolio/academics" ? (
+      ) : route === "/Portfolio/academics" ? (
         <Academics />
-      ) : route === "/Porfolio/contact" ? (
+      ) : route === "/Portfolio/contact" ? (
         <Contact />
       ) : (
         <About />
