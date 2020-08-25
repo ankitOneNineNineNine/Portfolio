@@ -10,7 +10,7 @@ import Academics from "./components/Academics/Academics";
 import Contact from "./components/Contact/Contact";
 
 function App() {
-  const [route, setRoute] = useState("/");
+  const [route, setRoute] = useState("/Portfolio");
   useEffect(() => {
     AOS.init({
       offset: 200,
@@ -27,11 +27,11 @@ function App() {
       <header>
         <Navbar />
       </header>
-      {route === "/projects" ? (
+      {route === "/Portfolio/projects" ? (
         <Project />
-      ) : route === "/academics" ? (
+      ) : route === "/Portfolio/academics" ? (
         <Academics />
-      ) : route === "/contact" ? (
+      ) : route === "/Portfolio/contact" ? (
         <Contact />
       ) : (
         <About />
